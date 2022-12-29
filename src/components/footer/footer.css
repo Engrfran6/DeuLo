@@ -1,0 +1,63 @@
+footer {
+  /* background: var(--color-primary); */
+  background: rgb(44, 96, 114);
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 3rem 0;
+  margin-top: 7rem;
+}
+
+footer a {
+  color: var(--color-bg);
+}
+
+.deulo_logo {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer_list_links {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 3rem;
+}
+
+.footer_socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.footer_socials a {
+  display: flex;
+  background: white;
+  color: rgb(44, 96, 114);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+}
+
+.footer_socials a:hover {
+  background: transparent;
+  color: var(--color-bg);
+  border: 1px solid var(--color-bg);
+}
+
+.footer_author {
+  color: var(--color-bg);
+  margin-bottom: 4rem;
+}
+
+/* ====================MEDIA QUERY SM================= */
+
+@media screen and (max-width: 600px) {
+  .footer_list_links {
+    display: flex;
+    flex-direction: column;
+  }
+}

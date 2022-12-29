@@ -1,0 +1,66 @@
+.container-content {
+  display: flex;
+  align-items: center;
+  height: 58vh;
+}
+
+.header-me {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-content {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.my-job {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+small {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.header-text {
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+/* Socials */
+.header_socials {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 0.8rem;
+  color: black;
+}
+
+.header_socials::after {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background: gray;
+}
+
+button {
+  background: rgb(228, 228, 228);
+  width: 7rem;
+  height: 3rem;
+  cursor: pointer;
+  border: 1px solid rgb(88, 85, 85);
+  font-size: 0.9rem;
+}
+
+.button:hover {
+  color: white;
+  background: rgb(44, 96, 114);
+  /* transition: var(--transition); */
+}

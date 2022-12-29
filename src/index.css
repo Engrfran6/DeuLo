@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-white: rgb(44, 96, 114);
+  /* --color-light: rgba(255, 255, 255, 0.6); */
+  --color-light: rgb(44, 96, 114);
+  --color-black: rgb(24, 22, 22);
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --transition: all 400ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* background: var(--color-white); */
+  background: rgb(251, 249, 250);
+  background: radial-gradient(
+    circle,
+    rgba(251, 249, 250, 1) 0%,
+    rgba(187, 195, 204, 1) 100%
+  );
+  color: var(--color-black);
+  line-height: 1.5;
+  /* background-image: url(../src/components/image/bg-texture.png); */
+}
+
+/* =============GENERAL STYLE=========== */
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h5 {
+  text-align: center;
+  /* color: var(--color-light); */
+  color: teal;
+}
+
+section > h2 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-light);
+}
+
+a {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: block;
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  background: rgb(251, 249, 250);
+  /* color: skyblue; */
+  padding: 0.02rem 0.1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  /* background: var(--color-primary); */
+  background: rgb(251, 249, 250);
+  background: radial-gradient(
+    circle,
+    rgba(251, 249, 250, 1) 0%,
+    rgba(187, 195, 204, 1) 100%
+  );
+  color: var(--color-black);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+}
+
+/* ====================MEDIA QUERY MD================= */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/* ====================MEDIA QUERY SM================= */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section {
+    margin-top: 2rem;
+  }
+}
