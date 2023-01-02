@@ -8,23 +8,21 @@ import About from "./components/about/About";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <NavBar />
-        <Header />
+    <BrowserRouter>
+      <NavBar />
+      <Header />
 
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
 
-        {/* <Routes>
+      {/* <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes> */}
-      </BrowserRouter>
-    </>
+    </BrowserRouter>
   );
 }
 

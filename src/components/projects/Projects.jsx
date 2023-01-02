@@ -97,10 +97,20 @@ export default function Projects() {
 
                 <h4>{title}</h4>
                 <div className="portfolio_link">
-                  <a href={github} className="btn" target="_blank">
+                  <a
+                    href={github}
+                    className="btn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Github
                   </a>
-                  <a href={demo} className="btn btn-primary" target="_blank">
+                  <a
+                    href={demo}
+                    className="btn btn-primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Live
                   </a>
                 </div>

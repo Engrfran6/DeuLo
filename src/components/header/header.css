@@ -64,3 +64,68 @@ button {
   background: rgb(44, 96, 114);
   /* transition: var(--transition); */
 }
+
+/* ====================MEDIA QUERY MD================= */
+
+@media screen and (max-width: 1024px) {
+  .header-me {
+    flex: 6;
+    line-height: 5rem;
+    padding: 1rem;
+  }
+
+  .profile-content {
+    flex: 6;
+    height: 35rem;
+    width: 100%;
+  }
+  .container-content {
+    height: 67vh;
+  }
+  small {
+    line-height: 2rem;
+    color: rgb(44, 96, 114);
+  }
+}
+
+/* ====================MEDIA QUERY SM================= */
+
+@media screen and (max-width: 600px) {
+  .container-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+  }
+
+  .header-text {
+  }
+
+  .header-me {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* text-align: center; */
+    margin-top: 2rem;
+  }
+
+  .profile-content {
+    margin: 0 auto;
+    height: 15rem;
+    width: 15rem;
+    padding-top: 0;
+  }
+
+  .social {
+    margin: 0 auto;
+  }
+  .my-job {
+    font-size: 2.6rem;
+    line-height: 2.2rem;
+
+    width: 100%;
+  }
+  .header-text {
+    line-height: 1.1rem;
+    font-size: 0.8rem;
+    padding: 1.3 0 1 0rem;
+  }
+}

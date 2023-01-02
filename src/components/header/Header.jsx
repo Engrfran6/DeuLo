@@ -11,11 +11,10 @@ function Header() {
           <small>Francis U. Okpoluaefe</small>
           <h2 className="my-job">Frontend Developer</h2>
           <p className="header-text">
-            Passionate about usability and possess intermediate knowledge of
-            Adobe Photoshop
+            Passionate about usability, Scallabity and Responsivennes.
           </p>
 
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex" }} className="social">
             <div>
               <Aboutsocials />
             </div>
@@ -29,6 +28,7 @@ function Header() {
                   className="resume"
                   href="https://drive.google.com/file/d/14sJQ8ms2OlcVHKZt4BxkPPSDnj1lbktx/view?usp=sharing"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Resume
                 </a>

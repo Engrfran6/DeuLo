@@ -16,7 +16,7 @@
   --color-light: rgb(44, 96, 114);
   --color-black: rgb(24, 22, 22);
 
-  --container-width-lg: 75%;
+  --container-width-lg: 70%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 
@@ -129,6 +129,19 @@ img {
   border-radius: 50%;
   display: block;
   object-fit: cover;
+}
+
+nav {
+  border-bottom: 0.1px solid rgb(44, 96, 114);
+  border-radius: 1rem;
+}
+
+.navbar-content {
+  position: fixed;
+  top: 1.5rem;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 /* ====================MEDIA QUERY MD================= */

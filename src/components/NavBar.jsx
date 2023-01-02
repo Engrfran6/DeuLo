@@ -4,28 +4,36 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div
-      className="container"
+      className="container navbar-content"
       style={{
         display: "flex",
-        // justifyContent: "end",
         alignItems: "center",
         background: "transparent",
         padding: "5px 0 5px 5px",
-        fontSize: "15px",
-        fontWeight: "600",
+        fontSize: "10px",
       }}
     >
       <div
         style={{
           flex: "6",
-          fontSize: "2rem",
+          fontSize: "1.3rem",
           color: "rgb(44, 96, 114)",
           fontFamily: "'Alegreya Sans', sans-serif",
+          fontWeight: "600",
+          cursor: "pointer",
         }}
       >
         DEULO
       </div>
-      <div style={{ display: "flex", flex: "6", justifyContent: "end" }}>
+      <nav
+        className="navbar"
+        style={{
+          display: "flex",
+          flex: "6",
+          justifyContent: "end",
+          margin: "0",
+        }}
+      >
         <div style={{ margin: "10px" }}>
           <NavLink
             to="/"
@@ -36,16 +44,7 @@ function NavBar() {
             ABOUT
           </NavLink>
         </div>
-        <div style={{ margin: "10px" }}>
-          <NavLink
-            to="/about"
-            style={({ isActive }) => ({
-              color: isActive ? "rgb(44, 96, 114)" : "black",
-            })}
-          >
-            TECH
-          </NavLink>
-        </div>
+
         <div style={{ margin: "10px" }}>
           <NavLink
             to="/technologies"
@@ -66,7 +65,7 @@ function NavBar() {
             CONTACT
           </NavLink>
         </div>
-      </div>
+      </nav>
     </div>
   );
 }

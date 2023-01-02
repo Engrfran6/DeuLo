@@ -4,13 +4,13 @@ import FooterSocials from "./FooterSocials";
 export default function Footer() {
   return (
     <footer>
-      <a href="" className="deulo_logo">
+      <a href="#logo" className="deulo_logo" rel="noreferrer">
         DEULO
       </a>
 
       <ul className="footer_list_links">
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
           <a href="#experience">Technologies</a>
@@ -26,7 +26,7 @@ export default function Footer() {
       <FooterSocials />
 
       <div className="footer_author">
-        <small>&copy; Deulo portfolio page</small>
+        <p>Copyright &copy; Francis U. Okpoluaefe. 2022, All rights reserved</p>
       </div>
     </footer>
   );

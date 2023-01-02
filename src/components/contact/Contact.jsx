@@ -28,7 +28,7 @@ export default function Contact() {
       id: 3,
       contactIcon: <BsWhatsapp />,
       contactTitle: "Whatsapp",
-      contactMeans: "+234-7056246872",
+      contactMeans: "+234-7038689224",
       contactApi: "https://api.whatsapp.com/send?phone=2347038689224",
     },
   ];
@@ -58,7 +58,12 @@ export default function Contact() {
                   <icon className="contact_icon">{contactIcon}</icon>
                   <h4 className="contact_title">{contactTitle}</h4>
                   <h5 className="contact_means">{contactMeans}</h5>
-                  <a href={contactApi} className="contact_api" target="_blank">
+                  <a
+                    href={contactApi}
+                    className="contact_api"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Send a message
                   </a>
                 </div>

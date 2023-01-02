@@ -48,8 +48,7 @@ footer a {
   border: 1px solid var(--color-bg);
 }
 
-.footer_author {
-  color: var(--color-bg);
+.footer_author p {
   margin-bottom: 4rem;
 }
 

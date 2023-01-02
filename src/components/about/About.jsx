@@ -4,7 +4,8 @@ import { ImHtmlFive2 } from "react-icons/im";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
-import { BsBootstrapFill } from "react-icons/bs";
+import { BsBootstrap } from "react-icons/bs";
+import { DiSass } from "react-icons/di";
 
 export default function About() {
   return (
@@ -22,7 +23,8 @@ export default function About() {
         <p className="about-text">
           i love building scalable and responsive websites, Proficient in HTML,
           CSS, JavaScript, React, J Query, Reactrap plus modern libraries and
-          frameworks.
+          frameworks. I am currently working on improving my JavaScript skills
+          by building various projects to enhance my knowledge.
         </p>
 
         {/* <p>
@@ -78,12 +80,12 @@ export default function About() {
           </li>
 
           <li>
-            <BsBootstrapFill className="experience_icon" />
+            <DiSass className="experience_icon" />
             SASS
           </li>
 
           <li>
-            <BsBootstrapFill className="experience_icon" />
+            <BsBootstrap className="experience_icon" />
             Boostrap
           </li>
         </ul>
