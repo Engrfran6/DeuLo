@@ -40,8 +40,8 @@ const data = [
     images: IMG4,
     tech: "HTML, CSS, JAVASCRIPT, REACT",
     title: "Cloned- React Porfolio",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
+    github: "https://github.com/Engrfran6/portfolioreact/tree/master",
+    demo: "https://engrfran6.github.io/portfolioreact/",
   },
 
   {

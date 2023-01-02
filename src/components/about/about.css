@@ -4,30 +4,21 @@
   padding-bottom: 7rem;
   min-height: 70vh;
   background: #f2f2f2;
-  /* padding-left: 1rem;
-  padding-bottom: 1rem; */
-}
-
-#about a {
-  text-decoration: underline;
 }
 
 .bio {
-  display: flex;
-  flex-direction: column;
-  padding: 0 1.7rem;
+  display: grid;
+  grid-template-columns: 1fr;
+
   height: 100%;
 }
 
 .bio p {
-  font-size: 1.1rem;
   margin-top: 1.5rem;
-  max-width: 1000px;
+  max-width: 100%;
 }
 
 .bio ul {
-  list-style: disc;
-  font-size: 1em;
   margin-top: 1.5rem;
   padding-left: 2rem;
 }
