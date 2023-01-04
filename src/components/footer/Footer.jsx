@@ -4,7 +4,7 @@ import FooterSocials from "./FooterSocials";
 export default function Footer() {
   return (
     <footer>
-      <a href="#logo" className="deulo_logo" rel="noreferrer">
+      <a href="#home" className="deulo_logo" rel="noreferrer">
         DEULO
       </a>
 

@@ -8,7 +8,7 @@ footer {
 }
 
 footer a {
-  color: var(--color-bg);
+  color: var(--color-black);
 }
 
 .deulo_logo {
@@ -36,7 +36,7 @@ footer a {
 .footer_socials a {
   display: flex;
   background: white;
-  color: rgb(44, 96, 114);
+  /* color: rgb(44, 96, 114); */
   padding: 0.8rem;
   border-radius: 0.7rem;
   border: 1px solid transparent;
@@ -46,6 +46,13 @@ footer a {
   background: transparent;
   color: var(--color-bg);
   border: 1px solid var(--color-bg);
+}
+
+.footer_list_links a:hover {
+  color: black;
+  background: white;
+  border-radius: 15px;
+  border: 1rem solid white;
 }
 
 .footer_author p {

@@ -89,7 +89,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: black;
 }
 
 .btn {
@@ -129,19 +129,6 @@ img {
   border-radius: 50%;
   display: block;
   object-fit: cover;
-}
-
-nav {
-  border-bottom: 0.1px solid rgb(44, 96, 114);
-  border-radius: 1rem;
-}
-
-.navbar-content {
-  position: fixed;
-  top: 1.5rem;
-  left: 0;
-  right: 0;
-  z-index: 9999;
 }
 
 /* ====================MEDIA QUERY MD================= */

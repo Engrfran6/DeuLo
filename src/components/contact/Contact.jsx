@@ -55,7 +55,7 @@ export default function Contact() {
             ({ id, contactIcon, contactTitle, contactMeans, contactApi }) => {
               return (
                 <div key={id} className="contact_me">
-                  <icon className="contact_icon">{contactIcon}</icon>
+                  <i className="contact_icon">{contactIcon}</i>
                   <h4 className="contact_title">{contactTitle}</h4>
                   <h5 className="contact_means">{contactMeans}</h5>
                   <a
@@ -99,7 +99,11 @@ export default function Contact() {
           <button
             type="submit"
             className="btn btn-primary"
-            style={{ margin: "0 auto", marginTop: "1.5rem" }}
+            style={{
+              margin: "0 auto",
+              marginTop: "0.1rem",
+              marginBottom: "1rem",
+            }}
           >
             Send message
           </button>

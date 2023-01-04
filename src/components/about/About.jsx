@@ -56,7 +56,7 @@ export default function About() {
           Technologies and tools I'm currently exploring and interested about.
         </p>
 
-        <ul class="language">
+        <ul className="language">
           <li>
             <ImHtmlFive2 className="experience_icon" />
             HTML5
@@ -90,7 +90,7 @@ export default function About() {
           </li>
         </ul>
 
-        <ul class="language">
+        <ul className="language">
           <li>Open source</li>
           <li>Blogging & Technical Writing</li>
         </ul>

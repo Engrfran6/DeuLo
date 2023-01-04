@@ -62,7 +62,7 @@ const data = [
     demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
   },
   {
-    id: 6,
+    id: 7,
     images: IMG6,
     tech: "HTML, CSS, JAVASCRIPTT",
     title: "Black Jack Game",
@@ -70,7 +70,7 @@ const data = [
     demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
   },
   {
-    id: 6,
+    id: 8,
     images: IMG6,
     tech: "HTML, CSS, JAVASCRIPT",
     title: "Basketball Scoreboard",
