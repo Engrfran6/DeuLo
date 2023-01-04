@@ -16,9 +16,25 @@ const data = [
     github: "https://github.com",
     demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
   },
-
   {
     id: 2,
+    images: IMG4,
+    tech: "HTML, CSS, JAVASCRIPT, REACT",
+    title: "Cloned- React Porfolio",
+    github: "https://github.com/Engrfran6/portfolioreact/tree/master",
+    demo: "https://engrfran6.github.io/portfolioreact/",
+  },
+  {
+    id: 3,
+    images: IMG5,
+    tech: "HTML, CSS, JAVASCRIPT",
+    title: "Calculator",
+    github: "https://github.com",
+    demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
+  },
+
+  {
+    id: 4,
     images: IMG2,
     tech: "HTML, CSS, JAVASCRIPT, REACT",
     title: "Blog Website",
@@ -27,28 +43,10 @@ const data = [
   },
 
   {
-    id: 3,
+    id: 5,
     images: IMG3,
     tech: "HTML, CSS, JAVASCRIPT, REACT",
     title: "Unit Converter",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
-  },
-
-  {
-    id: 4,
-    images: IMG4,
-    tech: "HTML, CSS, JAVASCRIPT, REACT",
-    title: "Cloned- React Porfolio",
-    github: "https://github.com/Engrfran6/portfolioreact/tree/master",
-    demo: "https://engrfran6.github.io/portfolioreact/",
-  },
-
-  {
-    id: 5,
-    images: IMG5,
-    tech: "HTML, CSS, JAVASCRIPT",
-    title: "Calculator",
     github: "https://github.com",
     demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
   },
@@ -61,22 +59,22 @@ const data = [
     github: "https://github.com",
     demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
   },
-  {
-    id: 7,
-    images: IMG6,
-    tech: "HTML, CSS, JAVASCRIPTT",
-    title: "Black Jack Game",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
-  },
-  {
-    id: 8,
-    images: IMG6,
-    tech: "HTML, CSS, JAVASCRIPT",
-    title: "Basketball Scoreboard",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
-  },
+  // {
+  //   id: 7,
+  //   images: IMG6,
+  //   tech: "HTML, CSS, JAVASCRIPTT",
+  //   title: "Black Jack Game",
+  //   github: "https://github.com",
+  //   demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
+  // },
+  // {
+  //   id: 8,
+  //   images: IMG6,
+  //   tech: "HTML, CSS, JAVASCRIPT",
+  //   title: "Basketball Scoreboard",
+  //   github: "https://github.com",
+  //   demo: "https://dribble.com/shots/16673715-Crypto-Currency-Dashboard-and-Financial-Visualization",
+  // },
 ];
 
 export default function Projects() {
