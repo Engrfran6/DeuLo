@@ -4,12 +4,16 @@ import Hamburger from "./Hamburger";
 
 const Nav = styled.nav`
   height: 3.5rem;
-  border-bottom: 2px solid #f1f1f1;
+  border-bottom: 3px solid #f1f1f1;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   color: rgb(44, 96, 114);
-  fontfamily: "Alegreya Sans", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 
   .logo {
     padding: 15px 0;
