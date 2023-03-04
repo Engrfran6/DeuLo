@@ -1,6 +1,8 @@
 footer {
   /* background: var(--color-primary); */
-  background: rgb(44, 96, 114);
+  /* background: rgb(44, 96, 114); */
+  background-image: var(--footerbg);
+  background-size: cover;
   text-align: center;
   font-size: 0.9rem;
   padding: 3rem 0;

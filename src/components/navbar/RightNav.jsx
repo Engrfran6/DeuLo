@@ -4,7 +4,6 @@ import styled from "styled-components";
 const Ul = styled.ul`
   list-style: none;
   display: flex;
-  flex-flow: row nowrap;
 
   li {
     padding: 18px 10px;

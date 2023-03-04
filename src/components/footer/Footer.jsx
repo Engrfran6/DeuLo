@@ -22,7 +22,6 @@ export default function Footer() {
           <a href="#contact">Contacts</a>
         </li>
       </ul>
-
       <FooterSocials />
 
       <div className="footer_author">

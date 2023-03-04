@@ -9,16 +9,18 @@
 .bio {
   display: grid;
   grid-template-columns: 1fr;
-
+  font-family: "Alegreya Sans", sans-serif;
   height: 100%;
 }
 
 .bio p {
   margin-top: 1.5rem;
   max-width: 100%;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 .bio ul {
   margin-top: 1.5rem;
   padding-left: 2rem;
+  font-family: "Alegreya Sans", sans-serif;
 }

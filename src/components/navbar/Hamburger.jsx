@@ -5,16 +5,12 @@ import RightNav from "./RightNav";
 const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 1.5rem;
   z-index: 20;
   display: none;
-  @media (max-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
-  }
+
   div {
     width: 2rem;
     height: 0.25rem;
@@ -33,6 +29,12 @@ const StyledBurger = styled.div`
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
+
+  @media (max-width: 600px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
 `;
 
 const Hamburger = () => {
@@ -40,12 +42,12 @@ const Hamburger = () => {
 
   return (
     <>
+      <RightNav open={open} />
       <StyledBurger open={open} onClick={() => setOpen(!open)}>
         <div />
         <div />
         <div />
       </StyledBurger>
-      <RightNav open={open} />
     </>
   );
 };
