@@ -1,31 +1,37 @@
 footer {
-  /* background: var(--color-primary); */
-  /* background: rgb(44, 96, 114); */
-  background-image: var(--footerbg);
-  background-size: cover;
-  text-align: center;
+  display: flex;
+  gap: 20rem;
+  justify-content: center;
+  align-items: center;
+  background: #4670a0;
   font-size: 0.9rem;
-  padding: 3rem 0;
+  padding: 3rem 0rem 3rem 0;
   margin-top: 7rem;
+  z-index: 999;
+  width: 100%;
 }
 
-footer a {
-  color: var(--color-black);
+.footer_author {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
 }
 
 .deulo_logo {
-  display: inline-block;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
+  font-style: italic;
 }
 
 .footer_list_links {
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto 3rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.footer_list_links li:hover {
 }
 
 .footer_socials {
@@ -50,22 +56,49 @@ footer a {
   border: 1px solid var(--color-bg);
 }
 
-.footer_list_links a:hover {
-  color: black;
-  background: white;
-  border-radius: 15px;
-  border: 1rem solid white;
-}
-
-.footer_author p {
-  margin-bottom: 4rem;
-}
-
 /* ====================MEDIA QUERY SM================= */
 
-@media screen and (max-width: 600px) {
-  .footer_list_links {
+@media screen and (max-width: 1024px) {
+  footer {
     display: flex;
     flex-direction: column;
+    gap: 5rem;
+  }
+
+  .footer_author {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+
+  .footer_list_links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer_social-links p {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .footer_author {
+    gap: 0.1px;
+    grid-template-columns: 1fr;
+  }
+
+  .footer_list_links {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer_social-links p {
+    padding: 0.1rem;
+    font-size: 0.6rem;
+    text-align: center;
   }
 }

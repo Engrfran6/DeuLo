@@ -5,39 +5,43 @@ import "./header.css";
 
 function Header() {
   return (
-    <section>
+    <section className="header">
+      {/* <div style={{ position: "relative", left: "0", right: "0" }}>
+        This site is currently been upgraded!
+      </div> */}
+
       <div className="container container-content">
         <div className="header-me">
           <small>Francis U. Okpoluaefe</small>
-          <h2 className="my-job">Frontend Developer</h2>
-          <p className="header-text">
-            Passionate about usability, Scallabity and Responsivennes.
-          </p>
+          <h2>Frontend Developer</h2>
+          <p>Passionate about usability, Scallabity and Responsivennes.</p>
 
           <div style={{ display: "flex" }} className="social">
             <div>
               <Aboutsocials />
             </div>
             <div
+              className="Btn"
               style={{
                 margin: "0.6rem 0 0 1rem",
               }}
             >
-              <button>
-                <a
-                  className="resume"
-                  href="https://drive.google.com/file/d/14sJQ8ms2OlcVHKZt4BxkPPSDnj1lbktx/view?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Resume
-                </a>
+              <button
+                className="resume"
+                href="https://drive.google.com/file/d/14sJQ8ms2OlcVHKZt4BxkPPSDnj1lbktx/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
               </button>
             </div>
           </div>
         </div>
-        <div className="profile-content">
-          <img src={ME} alt="" className="image" />
+
+        <div className="profile-content-cirle">
+          <div className="profile-image">
+            <img src={ME} alt="" />
+          </div>
         </div>
       </div>
       <Technologies />

@@ -9,38 +9,44 @@ export default function Technologies() {
   return (
     <section id="experience">
       <div className="container experience_container">
-        <div className="frontend">
-          <ul className="experience_list">
-            <span>
-              <ImHtmlFive2 className="experience_icon" />
-              <div>
-                <li className="experience_listitems">HTML</li>
-                <h5 className="text-light">Experienced</h5>
-              </div>
-            </span>
-            <span>
-              <FaCss3Alt className="experience_icon" />
-              <div>
-                <li className="experience_listitems">CSS</li>
-                <h5 className="text-light">Intermediate</h5>
-              </div>
-            </span>
-            <span>
-              <TbBrandJavascript className="experience_icon" />
-              <div>
-                <li className="experience_listitems">Javascript</li>
-                <h5 className="text-light">Beginner</h5>
-              </div>
-            </span>
+        <div className="experience_container-list">
+          <span>
+            <ImHtmlFive2 className="experience_icon" />
+          </span>
+          <div>
+            <li className="experience_listitems">HTML</li>
+            <h5 className="text-s">Experienced</h5>
+          </div>
+        </div>
 
-            <span>
-              <GrReactjs className="experience_icon" />
-              <div>
-                <li className="experience_listitems">ReactJs</li>
-                <h5 className="text-light">Biginner</h5>
-              </div>
-            </span>
-          </ul>
+        <div className="experience_container-list">
+          <span>
+            <FaCss3Alt className="experience_icon" />
+          </span>
+
+          <div>
+            <li className="experience_listitems">CSS</li>
+            <h5 className="text-s">Intermediate</h5>
+          </div>
+        </div>
+        <div className="experience_container-list">
+          <span>
+            <TbBrandJavascript className="experience_icon" />
+          </span>
+          <div>
+            <li className="experience_listitems">Javascript</li>
+            <h5 className="text-s">Beginner</h5>
+          </div>
+        </div>
+
+        <div className="experience_container-list">
+          <span>
+            <GrReactjs className="experience_icon" />
+          </span>
+          <div>
+            <li className="experience_listitems">ReactJs</li>
+            <h5 className="text-s">Biginner</h5>
+          </div>
         </div>
       </div>
     </section>

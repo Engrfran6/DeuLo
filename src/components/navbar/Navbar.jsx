@@ -5,21 +5,27 @@ import Hamburger from "./Hamburger";
 const Nav = styled.nav`
   height: 3.5rem;
   border-bottom: 3px solid #f1f1f1;
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  color: rgb(44, 96, 114);
   font-family: "Alegreya Sans", sans-serif;
+  color: #4670a0;
+  font-weight: 700;
+  z-index: 1000;
   position: fixed;
-  top: 0;
+  top: 2rem;
   left: 0;
   right: 0;
 
   .logo {
-    padding: 15px 0;
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
     cursor: pointer;
+  }
+
+  span {
+    position: absolute;
+    top: 6rem;
   }
 `;
 

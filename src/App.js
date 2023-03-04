@@ -1,4 +1,3 @@
-import { BrowserRouter } from "react-router-dom";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Projects from "./components/projects/Projects";
@@ -8,7 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Header />
 
@@ -22,7 +21,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
         </Routes> */}
-    </BrowserRouter>
+    </>
   );
 }
 
