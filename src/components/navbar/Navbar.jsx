@@ -27,6 +27,10 @@ const Nav = styled.nav`
     position: absolute;
     top: 6rem;
   }
+
+  @media screen and (max-width: 600px) {
+    top: 0.5rem;
+  }
 `;
 
 const Navbar = () => {
@@ -42,3 +46,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
