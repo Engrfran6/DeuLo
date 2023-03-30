@@ -7,19 +7,19 @@ import { BsInstagram } from "react-icons/bs";
 export default function FooterSocials() {
   return (
     <div className="footer_socials">
-      <a href="https://linkedin.com" target="-blank">
+      <a href="https://www.linkedin.com/in/deulo/" target="-blank">
         <BsLinkedin />
       </a>
-      <a href="https://facebook.com" target="-blank">
+      <a href="https://web.facebook.com/Engrfran6" target="-blank">
         <ImFacebook2 />
       </a>
-      <a href="https://twitter.com" target="-blank">
+      <a href="https://twitter.com/francisefe3" target="-blank">
         <AiOutlineGithub />
       </a>
-      <a href="https://instagram.com" target="-blank">
+      <a href="https://instagram.com/codewith_deulo" target="-blank">
         <BsTwitter />
       </a>
-      <a href="https://github.com" target="-blank">
+      <a href="https://github.com/engrfran6" target="-blank">
         <BsInstagram />
       </a>
     </div>
