@@ -1,0 +1,65 @@
+.main {
+  /* position: sticky; */
+}
+
+.header {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.technologies,
+.projects,
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.9rem;
+  padding: 6rem 0;
+}
+.technologies {
+  border-top: 1px solid #555556;
+  border-bottom: 1px solid #555556;
+}
+.technologies,
+.contact {
+  background-color: rgb(249, 247, 247);
+}
+
+.projects {
+  width: 66.3%;
+  margin: 0 auto;
+}
+
+.projects_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 80%;
+  }
+
+  .projects {
+    width: 90%;
+  }
+}
+
+/* ====================MEDIA QUERY SM================= */
+
+@media screen and (max-width: 600px) {
+  .header {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .technologies {
+    gap: 1rem;
+  }
+
+  .projects {
+    width: 95%;
+    /* gap: 0.5rem; */
+    padding: 3rem 0;
+  }
+}

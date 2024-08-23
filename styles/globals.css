@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recoleta:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-blue-dark: #00171f;
+  --color-blue-light: #b8e1ef;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --container-width-lg: 70%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  --transition: all 400ms ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin-top: 4.5rem;
+  background: radial-gradient(circle, #555556 4%, #ffffff 80%);
+}
+
+/* =============GENERAL STYLE=========== */
+
+h1,
+h2,
+h3 {
+  font-family: 'Recoleta', sans-serif;
+  color: #555556;
+}
+
+h1 {
+  font-size: 60px;
+  font-size: 600;
+  color: #555556;
+}
+
+h2 {
+  font-size: 35px;
+  font-size: 400;
+  color: #555556;
+}
+
+p,
+h4,
+h5,
+h6,
+ul,
+span,
+strong {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.8rem;
+}
+
+a,
+button,
+.btn,
+.btn_primary {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Recoleta', sans-serif;
+}
+
+button {
+  background: none;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  cursor: pointer;
+
+  border-radius: 0.5rem;
+}
+
+.btn_primary {
+  background-color: #555556;
+  color: #ffffff;
+}
+.btn_reverse-primary {
+  background-color: #ffffff;
+  color: #555556;
+}
+
+.btn-nav-call,
+.btn-nav-message {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/* ====================MEDIA QUERY MD================= */
+
+@media screen and (max-width: 1024px) {
+}
+
+/* ====================MEDIA QUERY SM================= */
+
+@media screen and (max-width: 600px) {
+}
