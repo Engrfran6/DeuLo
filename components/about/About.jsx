@@ -69,7 +69,7 @@ export default function About() {
                   <br />
                   Based in Porthacourt, NG, his work is recognized for its meticulous attention to
                   detail and visual appeal, seamlessly integrating user-friendly interfaces with
-                  well-crafted business logic. Francis's dedication to crafting responsive web
+                  well-crafted business logic. Francis&apos;s dedication to crafting responsive web
                   experiences is evident in his use of Tailwind CSS to create sleek, user-centric
                   designs that prioritize satisfaction and engagement.
                   <n />
@@ -291,12 +291,12 @@ export default function About() {
       <div className="hobbies">
         <h2>Hobbies</h2>
         <p>
-          Although not deeply into music, Francis enjoys it, with Jon Bellion's songs being among
-          his favorites. A creative at heart, he loves traveling, exploring, and appreciating art.
-          When he's not immersed in writing code, designing, building, or learning something new,
-          you'll likely find him playing video games (FIFA, PES, Mortal Kombat), swimming, playing a
-          game of snooker, catching up with family, friends, and acquaintances, or simply enjoying
-          some downtime with good food and rest.
+          Although not deeply into music, Francis enjoys it, with Jon Bellion&apos;s songs being
+          among his favorites. A creative at heart, he loves traveling, exploring, and appreciating
+          art. When he&apos;s not immersed in writing code, designing, building, or learning
+          something new, you&apos;ll likely find him playing video games (FIFA, PES, Mortal Kombat),
+          swimming, playing a game of snooker, catching up with family, friends, and acquaintances,
+          or simply enjoying some downtime with good food and rest.
         </p>
       </div>
     </section>

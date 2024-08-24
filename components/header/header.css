@@ -19,7 +19,7 @@
     color: #555556;
     padding: 0.5rem;
 
-    > h2 {
+    > h1 {
       animation: focus-in-contract 1s ease 0s 1 normal none;
     }
 

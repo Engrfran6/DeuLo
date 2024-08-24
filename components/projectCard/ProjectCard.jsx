@@ -8,23 +8,27 @@ export default function ProjectCard({image, tech, title, description, readingTim
   const pathname = usePathname();
 
   return (
-    <section className={`card_container ${pathname === '/portfolio' ? 'card_container-grid' : ''}`}>
-      <section className={`card ${pathname === '/portfolio' ? 'card-remove-grid' : ''}`}>
-        <h4 className={`card_header ${pathname === '/portfolio' ? 'card_header-hidden_grid' : ''}`}>
+    <section
+      className={`card_container ${pathname === '/portfolio' ? 'card_container-grid' : ''}`.trim()}>
+      <section className={`card ${pathname === '/portfolio' ? 'card-remove-grid' : ''}`.trim()}>
+        <h4
+          className={`card_header ${
+            pathname === '/portfolio' ? 'card_header-hidden_grid' : ''
+          }`.trim()}>
           {title}
         </h4>
         <div
           className={`card_content ${
             pathname === '/portfolio' ? 'card_content-reverse_grid' : ''
-          }`}>
+          }`.trim()}>
           <div
             className={`card_description ${
               pathname === '/portfolio' ? 'card_description-grid' : ''
-            }`}>
+            }`.trim()}>
             <div
               className={`card_description-title ${
                 pathname === '/portfolio' ? 'card_description-title-grid' : ''
-              }`}>
+              }`.trim()}>
               <span>
                 <MdAccessTime />
                 {readingTime}
@@ -35,17 +39,17 @@ export default function ProjectCard({image, tech, title, description, readingTim
             <div
               className={`card_description-text ${
                 pathname === '/portfolio' ? 'card_description-text-grid' : ''
-              }`}>
+              }`.trim()}>
               <p>{description?.slice(0, 150)}...</p>
               <h4>{tech}</h4>
-              <a href={`portfolio/${title}`} className="btn">
+              <a href={`portfolio/${title}`.trim()} className="btn">
                 VIEW PROJECT <MdOutlineDoubleArrow />
               </a>
             </div>
           </div>
           <a
             href={route}
-            className={`card_image ${pathname === '/portfolio' ? 'card_image-grid' : ''}`}>
+            className={`card_image ${pathname === '/portfolio' ? 'card_image-grid' : ''}`.trim()}>
             <Image src={image} width={1000} height={1000} alt="Project image" />
           </a>
         </div>

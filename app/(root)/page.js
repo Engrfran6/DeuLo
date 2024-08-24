@@ -25,7 +25,9 @@ export default function Home() {
       </section>
 
       <section
-        className={`${styles.projects} ${pathname === '/portfolio' ? styles.projects_grid : ''}`}>
+        className={`${styles.projects} ${
+          pathname === '/portfolio' ? styles.projects_grid : ''
+        }`.trim()}>
         <h3 className="project_header">PROJECTS COMPLETED</h3>
         {projectList?.slice(0, 7).map((project, index) => (
           <ProjectCard key={index} {...project} />

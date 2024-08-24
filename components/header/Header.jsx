@@ -3,13 +3,16 @@ import ME from '../image/Francis.jpeg';
 import {MdCallMade} from 'react-icons/md';
 import Image from 'next/image';
 import './header.css';
+import {motion} from 'framer-motion';
 
 function Header() {
   return (
     <section className="header_container">
       <div className="header_container-left">
         <div className="header_container-text">
-          <h3>HI 👋, I'M FRANCIS ULOHO OKPOLUAEFE</h3>
+          <motion.h3 initial={{x: -1000}} animate={{x: 0}}>
+            HI 👋, I&apos;M FRANCIS ULOHO OKPOLUAEFE
+          </motion.h3>
           <h1>Frontend Developer</h1>
           <p>
             A Full-Stack Software Engineer with a strong focus on <span>frontend development</span>,

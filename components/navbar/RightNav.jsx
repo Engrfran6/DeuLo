@@ -5,7 +5,7 @@ import {usePathname} from 'next/navigation';
 const Ul = styled.ul`
   display: flex;
 
-  .link {
+  & a {
     margin: 20px 40px;
     color: #ffffff;
     text-decoration: none;
@@ -38,16 +38,16 @@ const RightNav = ({open}) => {
   const pathname = usePathname();
   return (
     <Ul open={open}>
-      <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
+      <Link className={`${pathname === '/' ? 'active' : ''}`.trim()} href="/">
         Home
       </Link>
-      <Link className={`link ${pathname === '/about' ? 'active' : ''}`} href="/about">
+      <Link className={`${pathname === '/about' ? 'active' : ''}`.trim()} href="/about">
         About
       </Link>
-      <Link className={`link ${pathname === '/portfolio' ? 'active' : ''}`} href="/portfolio">
+      <Link className={`${pathname === '/portfolio' ? 'active' : ''}`.trim()} href="/portfolio">
         Portfolio
       </Link>
-      <Link className={`link ${pathname === '/contact' ? 'active' : ''}`} href="/contact">
+      <Link className={`${pathname === '/contact' ? 'active' : ''}`} href="/contact">
         Contact
       </Link>
     </Ul>
