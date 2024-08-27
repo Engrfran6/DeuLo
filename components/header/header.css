@@ -41,35 +41,25 @@
   .header_actions {
     display: flex;
     align-items: center;
-    justify-content: start;
+    gap: 0.8rem;
 
-    .btn_container {
-      display: flex;
-      align-items: center;
-      gap: 0.8rem;
-
-      .btn-call {
-        border: 1px solid #555556;
-      }
-
-      .divider2 {
-        display: none;
-        width: 0.2rem;
-        height: 4rem;
-        background: #555556;
-        margin: 0 1rem;
-      }
-
-      .btn-message {
-        background: #f2f2f2;
-        color: #555556;
-      }
+    .btn-call {
+      color: #555556;
+      border: 1px solid #555556;
     }
 
-    .header_socials {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    .divider2 {
+      display: none;
+      width: 0.2rem;
+      height: 4rem;
+      background: #555556;
+      margin: 0 1rem;
+    }
+
+    .btn-message {
+      background: #f2f2f2;
+      color: #555556;
+      border: 1px solid #555556;
     }
 
     .divider {

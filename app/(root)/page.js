@@ -21,18 +21,18 @@ export default function Home() {
         <h3 className="tech_header">FAVOURITE TOOLS</h3>
         <Technologies />
 
-        <h4>Among many others</h4>
+        <h4 className={styles.tech_footer}>Among many others</h4>
       </section>
 
       <section
         className={`${styles.projects} ${
           pathname === '/portfolio' ? styles.projects_grid : ''
         }`.trim()}>
-        <h3 className="project_header">PROJECTS COMPLETED</h3>
+        <h3 className={styles.project_header}>PROJECTS COMPLETED</h3>
         {projectList?.slice(0, 7).map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
-        <a className="btn btn_primary" href="/portfolio">
+        <a className={`btn btn_primary} href="/portfolio ${styles.projects_footer}`}>
           VIEW MORE PROJECTS
           <MdOutlineDoubleArrow />
         </a>

@@ -1,5 +1,5 @@
 .main {
-  /* position: sticky; */
+  /* position: relative; */
 }
 
 .header {
@@ -17,17 +17,25 @@
   padding: 6rem 0;
 }
 .technologies {
-  border-top: 1px solid #555556;
-  border-bottom: 1px solid #555556;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+
+  .tech_footer {
+    color: #555556;
+  }
 }
+
 .technologies,
 .contact {
-  background-color: rgb(249, 247, 247);
+  background-color: #c5c5c7;
 }
 
 .projects {
   width: 66.3%;
   margin: 0 auto;
+}
+
+.projects_header {
 }
 
 .projects_grid {

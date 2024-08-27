@@ -22,31 +22,32 @@ function Header() {
           </p>
         </div>
 
-        <div className="header_actions">
+        <motion.div
+          className="header_actions"
+          initial={{x: 900, opacity: 0}}
+          animate={{x: 0, opacity: 1}}>
           <div className="header_socials">
             <Socials className="socials-header" />
           </div>
 
           <div className="divider"></div>
 
-          <div className="btn_container">
-            <a
-              className="btn btn-call"
-              href="https://calendly.com/deulo-careers/meeting-with-francis-u-okpoluaefe"
-              target="_blank"
-              rel="noopener noreferrer">
-              Book call <MdCallMade />
-            </a>
+          <a
+            className="btn btn-call"
+            href="https://calendly.com/deulo-careers/meeting-with-francis-u-okpoluaefe"
+            target="_blank"
+            rel="noopener noreferrer">
+            Book call <MdCallMade />
+          </a>
 
-            <div className="divider2"></div>
+          <div className="divider2"></div>
 
-            <button
-              className="btn btn-message"
-              onClick={() => (window.location.href = 'mailto:deulo.dev@gmail.com')}>
-              Message <MdCallMade />
-            </button>
-          </div>
-        </div>
+          <button
+            className="btn btn-message"
+            onClick={() => (window.location.href = 'mailto:deulo.dev@gmail.com')}>
+            Message <MdCallMade />
+          </button>
+        </motion.div>
       </div>
 
       <div className="header_container-right">

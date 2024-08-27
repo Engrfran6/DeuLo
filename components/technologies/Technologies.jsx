@@ -21,21 +21,8 @@ export default function Technologies() {
         <li>
           <Image width={40} height={40} alt="Figma" src={Figma} title="Figma" />
         </li>
-
-        <li>
-          <Image width={40} height={40} alt="NextJS" src={NextJs} title="NextJS" />
-        </li>
         <li>
           <Image width={70} height={70} alt="NextJS" src={NextJs2} title="NextJS" />
-        </li>
-        <li>
-          <Image width={40} height={40} alt="NodeJS" src={NodeJs} title="NodeJS" />
-        </li>
-        <li>
-          <Image width={40} height={40} alt="NodeJS" src={NodeJs} title="NodeJS" />
-        </li>
-        <li>
-          <Image width={40} height={40} alt="NodeJS" src={NodeJs} title="NodeJS" />
         </li>
         <li>
           <Image width={40} height={40} alt="NodeJS" src={NodeJs} title="NodeJS" />

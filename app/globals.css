@@ -32,7 +32,7 @@ html {
 
 body {
   margin-top: 4.5rem;
-  background: radial-gradient(circle, #555556 4%, #ffffff 80%);
+  background: radial-gradient(circle, #555556 0.5%, #ffffff 99%);
 }
 
 /* =============GENERAL STYLE=========== */

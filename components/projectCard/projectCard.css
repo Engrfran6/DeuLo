@@ -71,29 +71,25 @@
   }
 
   .card_description-text {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
     margin-top: 1.2rem;
 
     > p {
       padding: 0 3rem 0 0.8rem;
-      line-height: 1.6rem;
     }
-  }
 
-  .card_description-text > h4 {
-    color: #ffffff;
-    background: #555556;
-    flex-wrap: wrap;
-    width: max-content;
-    height: max-content;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-  }
+    > h4 {
+      color: #ffffff;
+      background: #555556;
+      flex-wrap: wrap;
+      width: max-content;
+      padding: 0.3rem 1rem;
+      border-radius: 0.5rem;
+      margin: 1rem 0;
+    }
 
-  .card_description-text > a {
-    border: 1px solid #555556;
+    > a {
+      border: 1px solid #555556;
+    }
   }
 }
 
